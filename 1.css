@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://db.onlinewebfonts.com/c/447315c0c330fd423c8e1cc18024669d?family=AvertaStd-Bold');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+p{
+    font-family: AvertaStd-Bold, -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.header{
+    font-family: poppins, 'Times New Roman', Times, serif;
+    background-color: #3474e6;
+    padding : 0;
+    margin: 0;
+    border: 0;
+    /*border-radius: 0px 0px 100% 0;* used if ellipse needed*/
+}
+
+h1{
+    font-size: 3rem;
+    margin-left: 2px;;
+    display: inline;
+}
+
+.login{
+    display: inline;
+}
+
+.Signup, .Login{
+    border-radius: 9px;
+    height: 2rem;
+    width: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 0.7rem;
+}
+
+.Signup{
+    background-color: #2A2B2D;
+    color: white;
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width: 480x) {
+    body{
+        background-color: red;
+    }
+    .header{
+        width: 20px;
+    }
+}
+
+#crackGoalImg{
+    padding: 30px;
+    float: right;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Login:hover, .Signup:hover{
+    cursor: pointer;
+}
